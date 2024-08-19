@@ -1,38 +1,45 @@
-# Interative ReverseShell bypass Microsoft Window Defender
+# Interative Qradar shell works with Qradar Advanced Search
 
-A simple ReverseShell written in C++, and listening server written in Python
+ An interactive shell works as a bash shell with Qradar advanced search. Provide autocompleted with defined field from Qradar advanced search
 
 ## I. Installation
 
-- ***Mingw***:
-    *note that I try to use Microsoft Visual Studio to build exe but I got a lot of errors with lib and header file, you can use MVS if you want, or install Mingw like me*
+- ***venv***:
+    *note that if you don't want to have any conflict lib with your enviroment, you should create a separate virtual env*
 
 ```bash
-sudo apt-get update
-sudo apt-get install mingw-w64 -y
+# create virtual environment
+python -m venv 'venv_name'
+# activate
+source venv_name/bin/activate (linux)
+# install dependencies lib
+pip install -r requirements.txt
 ```
 ## II. Usage
-### 1. Build virus
-***Note:*** *Inspect source in virus.cpp and change sourceip and port to your remote server that hosts server.py (receive shell from victim) then build it using mingw*
+***Note:*** *I intended to build a Telegram Bot integrated with QradarPrompt, but I have no time, so the current code just cover shell Qradar, it doesn't contains Telegram now (just base class to connect tele).*
 ```bash
-x86_64-w64-mingw32-g++ -o notepad.exe virus.cpp  -static-libgcc -static-libstdc++ -lwininet
+#Run shell
+python utils/utils.py
 ```
+![plot](./images/shell.jpg)
 
-### 2. Run listening server
-***Note:*** *This server.py will listen incomming GET request, extract Agent header and decode to human readable data (result returns from command)*
-```python
-python3 server.py
-```
-
-Run notepad.exe connection will be established to remote server, run any command.
-
-**Server**:
-
-![plot](./images/serverpy.png)
-
-**Client**
-
-![plot](./images/viruscpp.png)
+##### Note usage:
+- In interactive shell, you can do some of the following things:
+    + Normal advanced search query: 
+        + You can do normal search like "select * from events where ..." which is the same as advanced search in Qradar (but in my case, maybe because of misconfiguration, GUI doesn't provide autocompleted field when I type, so I created this script to do the automation, you can edit whatever you want in **fields.txt**)
+        + example: select sourceip, destinationip from events where sourceip == '10.2.3.4'
+    + Shorten search query:
+        + For quickly detect and analysis offense in my daily works, I optimized search query to form:
+         ***offense_id***:***select fields***:***group fields***
+            * ***offense_id***: The id of the offense in Qradar's dashboard 
+              ***select fields***: fields that we want to extract from log
+              ***group fields***: fields that we want to group by
+                (There are some default fields added to query)
+        + Example:
+            > 131400:Username,"Web Query":Username -> this query will extract all events belonging to offense_id 131400, except default fields, it will select Username,"Web Query" fields and then group by Username
+            > 131400::Username -> this query will extract all events belonging to offense_id 131400, then group by Username (note that group fields will be added to select fields automatically for query works.)
+    + rm:
+        + As all result of queries are saved on **results** directory, after a time, you can you ***rm*** command to remove all records in this dir (this command support bash, git bash, powershell, cmd, if your bash environment is not compatible, change function in **helper.py**) 
 
 ## III. Contributing
 

@@ -1,0 +1,919 @@
+ACF2 Rule Key
+API Path
+APIContextPath
+APIMethod
+APIPathInfo
+APIQueryString
+AQL Statement
+AVT-App-Category
+AVT-App-NAme
+AVT-App-VolumeBytes
+Access Allowed
+Access Intent
+Access Mask
+Access Origin
+Accesses
+Account ID
+Account Name
+Account Security ID
+AccountID
+AccountName
+Action
+Action Result
+Action waf warning
+Action-custom
+ActionFortigate
+Active Offense Count
+Actual File Type
+Actual action
+Agent GUID
+AgentGUID
+AgentVersion
+Alert ID
+AlertId
+Analyzer
+Analyzer DAT Version
+Analyzer Host Name
+Analyzer Hostname
+Analyzer Name
+Analyzer Rule Name
+Analyzer Version
+AnalyzerDATVersion
+AnalyzerDetectionMethod
+AnalyzerEngineVersion
+AnalyzerHostName
+AnalyzerName
+AnalyzerVersion
+Application
+Application Category
+Application Name
+Application type
+Architecture
+Ariel Aggregates
+Ariel Columns
+Ariel Criteria
+Ariel Criteria Time
+Ariel Cursor ID
+Ariel Database
+Ariel Source
+Ariel Username
+Attachment Name
+Attack
+Attack type
+AttackTechniques
+Attack_file
+Attribute New Value
+AttributeLDAPDisplayName
+Audit ID
+Authentication Package
+Authorization
+Authorization Key
+Avt-App-VolumePackets
+Bytes
+Bytes From Client
+Bytes From Server
+Bytes Received
+Bytes Sent
+BytesReceived
+BytesSent
+CEF Event ID
+CEF Event Name
+CEF Product Name
+CEF Product Version
+CEF Severity
+CEF Vendor
+CEF Version
+CICS Terminal ID
+CP_FieldsChanges
+CP_LogicChanges
+CP_ObjectName
+CP_ObjectType
+CP_administrator
+CP_operation
+CP_uid
+CRE Description
+CRE Name
+Call Trace
+Call Type
+Caller Computer Name
+Catalog
+Category attack
+Category event
+CheckPoint Message Info
+Checkpoint Origin IP
+Checkpoint Protection Type
+Checkpoint Rule Name
+Classification
+Client
+Client Hostname
+Client_IP
+CoalescingRatio
+Command
+Command Arguments
+CommandLine
+Company
+Completion Code
+Completion Status
+Component Name
+Component Type
+Computer
+Computer Name
+Consumer Destination
+Content Type
+Cookie
+Creator Process Name
+Criticality Rating
+Criticality Score
+Current SQL ID
+CurrentDirectory
+Customer Interface
+DD name
+DELIVER_EMAIL
+DNS Request Type
+DNS Squatting Brand
+Data Definition
+Data Set Name
+Database Name
+Deployment ID
+Description
+Descriptor
+DestIP
+Destination
+Destination Host Name
+Destination Hostname
+Destination User
+Destination Zone
+Details
+DetectedUTC
+Detection Method
+Device Name
+DeviceID
+DeviceID_4xx
+Disposition
+DnsQuery
+Domain Name
+Dormant Offense Count
+Download site
+Downloaded by
+EPO-File_Extension
+Effective User ID
+Elapsed Time
+Element
+Email Recipient
+Email Sender
+Email Subject
+Email_Policy
+Encoded Argument
+Encoded Command
+Encoded Filename
+Error Code
+Event BaseBS
+Event Desc
+Event ID
+Event ID Code
+Event Summary
+Event Type
+Event category waf warning
+Event category-cutom
+EventID
+EventLicenseGiveback
+EventLogOnlyGiveback
+Events per Second Coalesced - Average 1 Min
+Events per Second Coalesced - Peak 1 Sec
+Events per Second Raw - Average 1 Min
+Events per Second Raw - Peak 1 Sec
+EventsDroppedGiveback
+Extended Error Code
+External ID
+ExternalAccess
+FC_Severity
+FailedAPIPathInfo
+Failure Reason
+File Attackment
+File Directory
+File Extension
+File Hash
+File ID
+File Path
+File Permissions
+File size (bytes)
+FileType
+Filename
+Flow Source
+FlowLicenseGiveback
+FlowSourceDropCount
+Flows per Second - Average 15 Min
+Flows per Second - Peak 1 Min
+FlowsDroppedGiveback
+FortiNet_cfgattr
+FortiNet_cfgpath
+ForwardedFlowSourceDropCount
+Full Name
+Function
+Function Code
+FwdDomain
+FwdIP
+GMTTime
+Granted Access
+Group ID
+Group Name
+GroupID
+HTTP Request
+HTTPAgent
+HTTP_Host
+HTTP_Referer
+Hash type
+Hashes
+Host Status
+Hostname
+IIS-C-IP
+IIS-Method
+IIS-Source-IP
+IIS-Time-Taken
+IIS-URI
+IIS-User-Agent
+IIS-X-Forwarded-For
+IMP Hash
+IP login
+IPAddress
+Identity Context Name
+Identity Context Registry
+Image
+ImageLoaded
+ImageLoadedTempPath
+ImageName
+ImagePath
+ImageTempPath
+Impact Level
+Impersonation Level
+Initiated
+Initiator Username
+Installer Filename
+Integrity Level
+Interactive Session
+Interface
+JES Line
+JES Remote Terminal Name
+Job Name
+Job Number
+Key Length
+Keywords
+LDAP Display Name
+LEEF Event ID
+LEEF Product Name
+LEEF Product Version
+LEEF Vendor
+LEEF Version
+Level
+Local IP
+Local port
+Location
+Log
+Log Source Name
+Log String
+Logon Account Domain
+Logon Account Name
+Logon ID
+Logon Process
+Logon Type
+Logon UID
+MAC Address
+MD5 Hash
+MSID
+MS_SIZE
+Machine ID
+Machine Identifier
+MachineGroup
+MachineName
+Malware
+MalwareName
+McAfee ATD Verdict Description
+McAfee ATD Verdict Severity
+McAfee ATD Yara
+McAfeeEPO-SourceFilePath
+McafeeEPO-FileExtension
+McafeeEPO-SourceHostName
+McafeeEPO-SourceProcessName
+McafeeEPO-TargetFileName
+McafeeEPO-TargetHostName
+McafeeNSM-ADMIN_DOMAIN
+McafeeNSM-ALERT_TYPE
+McafeeNSM-ATTACK-SIGNATURE
+McafeeNSM-ATTACK_CONFIDENCE
+McafeeNSM-ATTACK_ID
+McafeeNSM-ATTACK_NAME
+McafeeNSM-ATTACK_SEVERITY
+McafeeNSM-ATTACK_TIME
+McafeeNSM-Category
+McafeeNSM-DESTINATION_IP
+McafeeNSM-DESTINATION_PORT
+McafeeNSM-DIRECTION
+McafeeNSM-INTERFACE
+McafeeNSM-RESULT_STATUS
+McafeeNSM-SENSOR_ALERT_UUID
+McafeeNSM-SENSOR_NAME
+McafeeNSM-SOURCE_IP
+McafeeNSM-SOURCE_PORT
+Member Name
+Message
+Method
+Method http 2xx
+Method http 4xx
+Method http 503
+Method web_rq
+Metric ID
+Miscellaneous
+Module BaseBS
+MsgId
+NAC_ApplicationStatus
+NAC_ConnectedClients
+NAC_Details
+NAC_InstalledPlugins
+NAC_Log
+NAC_SessionDetails
+NAC_SessionUser
+NAC_Severity
+NAC_Source
+NAC_Status
+NAC_SystemStatistic
+NAC_Target
+NAC_Type
+NAC_Vendor
+NJE node name 
+NSM Policy
+Name Object
+Nested Application
+NetBiosName
+NewValue
+Node Name
+Number of Terminate
+Number of terminated
+OOM Process Name
+OS Name
+OSName
+OSSEC Agent
+OSSEC Agent Buffer Status
+OSversion
+Object
+Object ID
+Object Name
+Object Name Lowercase
+Object Server
+Object Type
+Object name(s)
+Object type(s)
+ObjectClass
+ObjectName
+ObjectType
+ObjectValueName
+Occurrences
+OffenseCloseID
+OffenseCloseNotes
+OffenseCloseReason
+OffenseCloseUser
+Old Data Set Name
+Old data set name 
+OriginalFileName
+Originating Computer
+Originating Host
+Originating Security Gateway
+Originating_User
+P!:2
+P$:2
+PA Event Name
+PA-Type
+PS Encoded Command
+Packet Direction
+Packet Type
+Packets
+Packets From Client
+Packets From Server
+Packets Received
+Packets Sent
+Paloalto_URL
+Parameter Value
+ParameterValue
+Parent
+Parent Command
+Parent MD5
+Parent Process ID
+Parent Process Name
+Parent Process Path
+Parent SHA1 Hash
+Parent SHA256 Hash
+ParentCmdLine
+ParentCommandLine
+ParentImage
+ParentImageName
+ParentImagePath
+ParentProcessHash
+ParentProcessName
+Parity Policy
+Parsed Query
+Peak EPS Rate
+Person name
+Physical DASD Box Serial
+Pipe Name
+PipeName
+Plan
+Policy
+Policy Name
+Port of Entry
+PowerShell_Command
+PowerShell_Message
+Pre-Authentication Type
+Prevalence
+Priority
+Private/owned data set
+Privileges
+Process Command
+Process CommandLine
+Process GUID
+Process ID
+Process Name
+Process Path
+ProcessCommandLine
+Product
+Program
+ProgramName
+Properties
+Protection Type
+Provider Name
+QueryName
+QueryResults
+QueryStatus
+Question Name
+RACF Authority Used
+RACF Profile
+RawMACAddress
+Realm
+Reasons
+Recipient
+Recipient Host
+Recipient_User
+Recipients
+Record Number
+Referrer URL
+Registry Key
+Registry Value Data
+Registry Value Name
+RegistryObject
+RegistryObjectName
+Relative Target Name
+RelativeTargetName
+Remote IP
+Remote network
+Request Site
+Request Time
+Request URI
+Requested action
+Resource
+Resource Sensitivity
+Response Code
+Response Size
+Response_Size
+Result
+ResultStatus
+Risk name
+Role
+Role Name
+Root Hash
+Rule Details
+Rule Name
+Rule Notes
+Run Level
+RunLevel
+SAF Class
+SAF resource name
+SEL-Account_Domain
+SEL-Destination IP Asset Name
+SEL-Failure Reason
+SENSOR_ALERT_UUID
+SHA1 Hash
+SHA256 Hash
+SNA Global Network Name
+SNA Terminal Name
+SSH Login Audit Event
+SSH Process ID
+SUBJECT
+Scope
+Score
+Secondary action
+Security ID
+Sender
+Sender Host
+Sensitive Groups
+Sensitive User Privileges
+SensorDevicesEventGiveback
+SensorDevicesFlowGiveback
+Server Group
+Server Name
+Server Response Time
+Service
+Service Account
+Service File Name
+Service Filename
+Service Name
+Service Start Type
+ServiceFileName
+ServiceSource
+Share Name
+ShareName
+Signed
+SoftwareInfoProductFamily
+SoftwareInfoProductName
+SoftwareInfoProductVersion
+Source
+Source Computer
+Source Host Name
+Source Hostname
+Source IP access ib server
+Source IP rq
+Source IP rq 2
+Source Process
+Source Process Path
+Source Type
+Source User
+Source User FireEye
+Source Workstation
+Source Zone
+Source ip http rp 3xx
+Source ip http rq 404
+Source ip http rq 417
+Source ip http rq 4xx
+Source ip http rq 503
+SourceHostname
+SourceImage
+SourceImageTempPath
+SourceProcessName
+Sources Description
+Src IP
+Src port
+Start Address
+Start Function
+Start Module
+StartAddress
+StartFunction
+StartModule
+Status
+Status Code
+Step Name
+SubStatus
+Subject Account Name
+Submitted By
+SubmitterName
+SubmitterType
+Subscriber
+Subsystem Name
+Subtype
+Supplier
+Syscall ID
+SyscallID
+Sysmon Message
+System SMF ID
+System/job
+TLD Each Countries
+TLD Name
+Target
+Target Account Security ID
+Target Details
+Target File Directory
+Target ID
+Target Image Name
+Target Object
+Target Process Name
+Target Process Path
+Target Server Name
+Target User Name
+Target Username
+TargetFileName
+TargetImage
+TargetProcessName
+TargetUserName
+TargetUserOrGroupType
+Task Content
+Task Name
+TaskName
+Teletypewriter
+Temptation
+TenantId
+Terminated Process Name
+Test
+Threat Category
+Threat Confidence
+Threat Name
+Threat Severity
+Threat Signature
+Threat Type
+ThreatActionTaken
+ThreatCategory
+ThreatHandled
+ThreatName
+ThreatSeverity
+ThreatType
+Ticket Encryption Type
+Ticket Options
+Time taken http rq 2xx
+TimeZoneBias
+Timestamp
+Title
+Token Elevation Type
+Total Sessions
+Transaction Name
+Type
+UA-Software
+UNIX access origin
+UNIX function
+UNIX path name
+URI
+URI Path
+URI String
+URI http rq 403
+URI http rq 404
+URI http rq 4xx
+URI http rq 503
+URI query
+URI_Path
+URI_http rq 4xx
+URL
+URL Host
+URL Path
+URL Query String
+URL Referrer
+URL Scheme
+UploadRatio
+Upstream Response Time
+UrlHost
+User Agent
+User Agent OS
+User Domain
+User ID
+User change
+User-Agent
+User-Agent http 403
+User-Agent http 503
+User-Agent-http-3xx
+UserID
+VPN Subject CN
+VPNsubject_CN
+VRF
+Value
+Vendor
+VirusName
+VirusTotal_Link
+Volume Serial
+WAF-Destination-IP
+WAF-Source-IP
+Web Category
+Web Method
+Web Query
+Web domain
+Working Directory
+X-Forwarded_source ip http rq
+accumulationinterval
+accumulationtime
+act
+adekey
+adevalue
+analyticName
+applicationProtocol
+bluecoat_url
+cat
+category
+clientip
+cmdline
+cn1
+cn1Label
+cn2
+cn2Label
+cn3
+cn3Label
+collectorid
+compressedDataFileCount
+compressedDataTotalSize
+concurrentqueries
+content
+content_file
+content_size
+cp-protection_type
+cp_origin_ip
+credibility
+creerror
+creerroronstartup
+creeventlist
+cs-User-Agent
+cs-referer
+cs-uri-query
+cs-uri-stem
+cs1
+cs1Label
+cs2
+cs2Label
+cs3
+cs3Label
+cs4
+cs4Label
+cs5
+cs5Label
+cs6
+cs6Label
+dataFileCount
+dataTotalSize
+destinationaddress
+destinationgeographiclocation
+destinationip
+destinationmac
+destinationport
+destinationv6
+devicePayloadId
+devicegrouplist
+devicetime
+devicetype
+dns_client_ip
+dns_event_flag
+domainid
+duration
+duser
+dvc
+dvchost
+ecqueuedrop
+end
+endtime
+epqueuedrop
+eventcount
+eventdirection
+execution_mode
+expensivecp
+expensivelogsource
+expensiverules
+externalId
+fileHash
+filePath
+flexString1
+flexString1Label
+flexString2
+flexString2Label
+fname
+fsize
+geographiclocation
+hasidentity
+hasoffense
+hastlv
+highlevelcategory
+http_x_forwarded_for
+id
+identityhostname
+identityip
+indexFileCount
+indexTotalSize
+iscreevent
+isduplicate
+islogonly
+istruncated
+isunparsed
+kerneltime
+logsourceid
+logsourceidentifier
+magnitude
+mar_child
+md5
+message_info
+modelName
+msg
+name
+normalized_cmdline
+offense_assign
+offense_assignee
+offense_categories
+offense_create
+offense_description
+offense_eventcount
+offense_flowcount
+offense_id
+offense_lastevent
+offense_rule_id
+offense_seconds_to_assign
+offense_seconds_to_close
+offense_time_to_assign
+offense_time_to_close
+origin_firewall_ip
+parent_cmdline
+parentid
+parentname
+parsingerror
+parsingerroronstartup
+partialmatchlist
+partialormatchlist
+payload
+pcappacket
+postnatdestinationip
+postnatdestinationport
+postnatsourceip
+postnatsourceport
+prenatdestinationip
+prenatdestinationport
+prenatsourceip
+prenatsourceport
+processorid
+proto
+protocolconfigid
+protocolid
+qid
+qideventcategory
+qideventid
+relevance
+request
+requestClientApplication
+requestMethod
+resultCode
+rt
+rule_name
+sc-status
+searchcanceled
+searchid
+searchindexcount
+searchlimit
+searchpriority
+searchresultsdeleted
+searchtime
+senseConf
+senseDesc
+senseOffenseId
+senseOffenseScore
+senseOverallScore
+senseScore
+senseValue
+senseWindowScore
+severity
+severity
+sha1
+sha256
+size
+sourceDnsDomain
+sourceaddress
+sourcegeographiclocation
+sourceip
+sourcemac
+sourceport
+sourcev6
+sproc
+start
+started_at
+starttime
+storedforperformance
+suser
+syslogerror
+threadcount
+time
+tlvs
+totalResult
+totalResultDataSize
+uptime
+user
+user_agent
+user_id
+username
+username
+usertime
+waf-srcip
+select 
+SELECT 
+where 
+WHERE 
+group by 
+GROUP BY 
+from 
+FROM 
+last  
+LAST  
+dateformat 
+DATEFORMAT 
+dd/MM/yyyy hh:mm:ss a
+DATEFORMAT(starttime, 'dd/MM/yyyy hh:mm:ss a')
+events 
+EVENTS 
+qid 
+QID 
+domainname
+DOMAINNAME 
+logsourcename
+LOGSOURCENAME
+LOGSOURCENAME(logsourceid) 
+order by 
+ORDER BY 
+like 
+LIKE '% %'
+ILIKE '% %'
+or 
+OR 
+and 
+AND 
+asc 
+ASC 
+desc 
+DESC 
+hours 
+HOURS 
+limit 
+LIMIT 
+UTF8()

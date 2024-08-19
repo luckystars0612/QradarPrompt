@@ -1,0 +1,41 @@
+select 
+SELECT 
+where 
+WHERE 
+group by 
+GROUP BY 
+from 
+FROM 
+last  
+LAST  
+dateformat 
+DATEFORMAT 
+dd/MM/yyyy hh:mm:ss a
+events 
+EVENTS 
+qid 
+QID 
+domainname
+DOMAINNAME 
+logsourcename
+LOGSOURCENAME
+LOGSOURCENAME(logsourceid) 
+order by 
+ORDER BY 
+like 
+LIKE '% %'
+ILIKE '% %'
+or 
+OR 
+and 
+AND 
+asc 
+ASC 
+desc 
+DESC 
+hours 
+HOURS 
+limit 
+LIMIT 
+UTF8()
+

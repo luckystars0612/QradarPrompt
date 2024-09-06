@@ -8,7 +8,7 @@ from prompt_toolkit.lexers import SimpleLexer
 import logging
 import json
 import csv
-from datetime import datetime
+import datetime
 from helper import *
 import sys
 sys.path.insert(0, './model_bots')
@@ -73,7 +73,7 @@ class PromtQradar(Qradar):
                 break
     
     def export_csv(self, data: list, filename: str = 'default') -> str:
-        current_time = datetime.now().strftime("%Y-%m-%d %H-%M-%S")
+        current_time = datetime.datetime.now().strftime("%Y-%m-%d %H-%M-%S")
         csv_file = f"results/{current_time}_{filename}.csv"
 
         # Extract keys for CSV header

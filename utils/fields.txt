@@ -127,6 +127,7 @@ Criticality Score
 Current SQL ID
 CurrentDirectory
 Customer Interface
+destinationip
 DD name
 DELIVER_EMAIL
 DNS Request Type
@@ -721,7 +722,6 @@ dataFileCount
 dataTotalSize
 destinationaddress
 destinationgeographiclocation
-destinationip
 destinationmac
 destinationport
 destinationv6

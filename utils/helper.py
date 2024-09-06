@@ -1,6 +1,6 @@
 import logging
 import sys
-from datetime import datetime
+import datetime
 import subprocess
 import os
 sys.path.insert(0, './model_bots')

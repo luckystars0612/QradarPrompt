@@ -39,9 +39,9 @@ def process_input(query:str) -> None:
                 print(output_query)
                 return {'baql': bool_aql_query, 'query': output_query}
             except Exception as e:
-                logging.log(logging.ERROR,f'{e}\nError in helper.py process_input()')
+                return {'baql': 'unk','query': query}
+                # logging.log(logging.ERROR,f'{e}\nError in helper.py process_input()')
     
-    return {'baql': 'unk'}
 
 def define_query(offense_id:int,offense:dict,event_fields:str=None, groupby_fields:str=None) -> str:
 

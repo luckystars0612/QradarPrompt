@@ -5,8 +5,11 @@ from prompt_toolkit.formatted_text import FormattedText
 from prompt_toolkit.shortcuts import print_formatted_text, PromptSession
 from prompt_toolkit.styles import Style
 from prompt_toolkit.lexers import SimpleLexer
+from pygments import highlight
+from pygments.lexers.shell import BashLexer
+from pygments.formatters import TerminalFormatter
 import logging
-import json
+import subprocess
 import csv
 import datetime
 from helper import *
@@ -15,6 +18,24 @@ sys.path.insert(0, './model_bots')
 from Qradar import Qradar
 
 
+def run_oscommand(command:str):
+
+    try:
+    # Running the command with shell=True to allow piping
+        result = subprocess.run(command, shell=True, capture_output=True, text=True, check=True)
+        highlighted_output = highlight(result.stdout, BashLexer(), TerminalFormatter())
+        print(highlighted_output)
+
+    
+    except subprocess.CalledProcessError as e:
+        # This exception is raised if the command returns a non-zero exit status
+        print_formatted_text(FormattedText([('ansired', f"Command failed with error:\n{e}")]))
+        print_formatted_text(FormattedText([('ansired', f"Standard error:\n{e.stderr}")]))
+
+    except Exception as e:
+        # General exception handling for any other issues
+        print_formatted_text(FormattedText([('ansired', f"An unexpected error occurred: {e}")]))
+    
 class PromtQradar(Qradar):
 
     def __init__(self) -> None:
@@ -118,7 +139,8 @@ class PromtQradar(Qradar):
                 except Exception as e:
                     logging.log(logging.ERROR,f'{e}\nError in utils.py run_query()')
         elif query['baql'] == 'unk':
-            print_formatted_text(FormattedText([('ansired', "Unknown format query or command")]))
+            # print_formatted_text(FormattedText([('ansired', "Unknown format query or command")]))
+            run_oscommand(query['query'])
 
 a = PromtQradar()
 a.prompt()

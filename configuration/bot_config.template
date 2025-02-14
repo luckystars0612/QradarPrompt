@@ -1,0 +1,6 @@
+[bot]
+bot_token =  'Telegram bot_token'
+chat_id = 'chat_id'
+[qradar]
+SEC_TOKEN = 'Qradar SEC_TOKEN'
+IP_V4_LOCAL = 'IP Portal'

@@ -1,7 +1,8 @@
 #virtual env
-qradar/
+venv/
 model_bots/__pycache__/
 configuration/__pycache__/
+configuration/bot.config
 build/
 dist/
 Telegram_Bot.egg-info

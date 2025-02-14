@@ -5,5 +5,6 @@ configuration/__pycache__/
 configuration/bot.config
 build/
 dist/
+results/
 Telegram_Bot.egg-info
 *.py[cod]

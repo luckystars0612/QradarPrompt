@@ -24,3 +24,5 @@ class Config:
         self.sec_token = config.get('qradar', 'SEC_TOKEN')
         self.iploc_v4 = config.get('qradar','IP_V4_LOCAL')
         
+
+
